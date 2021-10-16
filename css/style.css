@@ -1,0 +1,641 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 14px;
+  line-break: 24px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+/* <!-- Header Section:- Start --> */
+.header {
+  width: 100%;
+  background: url(../images/Home.png) center top no-repeat;
+  background-size: cover;
+  height: 650px;
+}
+
+.menu {
+  width: 100%;
+}
+
+.menu .bg-light {
+  background: transparent !important;
+}
+
+.menu .navbar-light .navbar-nav .nav-link {
+  color: #fff;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.menu .navbar-light .navbar-nav .nav-link:hover,
+.menu .navbar-light .navbar-nav .nav-link:focus {
+  color: #008ed6;
+  background: url(../images/Prostokąt\ 2.png) center bottom no-repeat;
+  background-size: auto;
+}
+
+.menu .navbar-light .navbar-nav .nav-link.active {
+  color: #008ed6;
+  background: url(../images/Prostokąt\ 2.png) center bottom no-repeat;
+  background-size: auto;
+}
+
+.menu .navbar-light .navbar-nav .nav-link.active:hover,
+.menu .navbar-light .navbar-nav .nav-link.active:focus {
+  color: #fff;
+}
+
+.menu .navbar-light .navbar-toggler {
+  color: #fff;
+  border-color: #fff;
+}
+
+.banner {
+  width: 100%;
+  padding: 40px 0;
+}
+
+.banner h4 {
+  font-size: 18px;
+  line-height: 28px;
+  color: #008ed6;
+  text-transform: uppercase;
+  padding-top: 30px;
+}
+
+.banner h1 {
+  font-size: 48px;
+  line-height: 58px;
+  color: #fff;
+  padding-top: 5px;
+}
+
+.banner p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #7f7f7f;
+  padding-bottom: 25px;
+}
+
+.banner .btn1 {
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  background: #008ed6;
+  color: #fff;
+  transition: 0.8s;
+  padding: 10px 25px;
+  margin-top: 20px;
+  border: 0px;
+  border-radius: 5px;
+}
+
+.banner .btn1:hover,
+.banner .btn1:focus {
+  background: transparent;
+  border: 1px solid #7f7f7f;
+}
+
+.banner .btn2 {
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  background: transparent;
+  color: #fff;
+  padding: 10px 25px;
+  border: 1px solid #7f7f7f;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 20px;
+  transition: 0.8s;
+}
+
+.banner .btn2:hover,
+.banner .btn2:focus {
+  background: #008ed6;
+  border: 1px solid #7f7f7f;
+}
+/* <!-- Header Section:- End --> */
+
+/* Features Section:- Start */
+.features-section {
+  width: 100%;
+  text-align: center;
+  padding: 80px 0 60px 0;
+}
+
+.features-section h5 {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #008ed6;
+}
+
+.features-section h2 {
+  font-size: 35px;
+  line-height: 45px;
+  font-weight: 500;
+}
+
+.inner-features {
+  width: 100%;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.inner-features .icons {
+  width: 110px;
+  height: 110px;
+  line-height: 110px;
+  margin: 0px auto 25px;
+  border-radius: 100%;
+  border: 1px solid #000;
+}
+
+.inner-features h5 {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #000;
+}
+
+.inner-features p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #7f7f7f;
+  padding-bottom: 25px;
+}
+
+/* Features Section:- End */
+
+/* About-Long Section:- Start */
+.about-long {
+  width: 100%;
+  padding: 80px 0;
+  border-top: 1px solid #7f7f7f;
+}
+
+.about-long .long-img {
+  width: 100%;
+  height: 650px;
+}
+
+.about-long h5 {
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #008ed6;
+  padding-top: 45px;
+}
+
+.about-long h3 {
+  font-size: 35px;
+  line-height: 45px;
+  color: #000;
+}
+
+.about-long p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #7f7f7f;
+  padding-top: 10px;
+}
+
+.icon-list {
+  width: 100%;
+  display: block;
+  padding: 0;
+  margin-top: 35px;
+}
+.icon-list li {
+  list-style: none;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.icon-list li .fa {
+  width: 25px;
+  color: #008ed6;
+  text-align: center;
+  margin-right: 10px;
+}
+/* About-Long Section:- Start */
+
+/* About-Short Section:- Start */
+.about-short {
+  width: 100%;
+  padding: 80px 0 60px 0;
+  background-color: #f2f2f2;
+}
+
+.about-short h5 {
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #008ed6;
+  padding-top: 40px;
+}
+
+.about-short h3 {
+  font-size: 35px;
+  line-height: 45px;
+  padding: 10px 0;
+  color: #000;
+}
+
+.about-short p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #7f7f7f;
+  padding: 15px 0;
+}
+/* About-Short Section:- End */
+
+/* Testimonials Section:- Start */
+.testimonials {
+  width: 100%;
+  background: url(../images/Prostokąt\ 4.png) center top no-repeat;
+  background-size: cover;
+  height: 650px;
+}
+
+.testimonials h5 {
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #008ed6;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.testimonials h3 {
+  font-size: 35px;
+  line-height: 45px;
+  padding: 10px 0;
+  color: #fff;
+  text-align: center;
+}
+.testimonials .img {
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.testimonials .owl-theme .item h4 {
+  font-size: 18px;
+  line-height: 28px;
+  color: #fff;
+  margin: 0 0 40px 20px;
+  font-style: italic;
+}
+
+.testimonials .owl-theme .item .round {
+  width: 100px;
+  height: 95px;
+  margin-left: 20px;
+}
+
+.testimonials .owl-theme .item h5 {
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: capitalize;
+  color: #fff;
+  text-align: left;
+  padding: 10px 0 0;
+}
+
+.testimonials .owl-theme .item p {
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: left;
+}
+
+.testimonials .owl-theme .owl-dots .owl-dot span {
+  margin-top: 100px;
+}
+
+/* Testimonials Section:- End */
+
+/* Download Section:- Start */
+.download {
+  width: 100%;
+  background-color: #000;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.download h3 {
+  font-size: 30px;
+  line-height: 40px;
+  color: #fff;
+  padding-top: 20px;
+}
+.download h3 span {
+  color: #7f7f7f;
+}
+
+.download .btn1 {
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  background: #008ed6;
+  color: #fff;
+  transition: 0.8s;
+  padding: 10px 25px;
+  margin-top: 20px;
+  border: 0px;
+  border-radius: 5px;
+}
+
+.download .btn1:hover,
+.download .btn1:focus {
+  background: transparent;
+  border: 1px solid #7f7f7f;
+}
+
+.download .btn2 {
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  background: transparent;
+  color: #fff;
+  padding: 10px 25px;
+  border: 1px solid #7f7f7f;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-top: 20px;
+  transition: 0.8s;
+}
+
+.download .btn2:hover,
+.download .btn2:focus {
+  background: #008ed6;
+}
+/* Download Section:- End */
+
+/* Price And Table Section:- Start  */
+.price {
+  width: 100%;
+  padding: 80px 0;
+}
+
+.price .titles h5 {
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #008ed6;
+  text-align: center;
+}
+
+.price .titles h3 {
+  font-size: 35px;
+  line-height: 45px;
+  font-weight: 500;
+  text-align: center;
+  color: #000;
+}
+
+.price .titles .img {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.price-box {
+  width: 100%;
+  border: 1px solid #e3e3e3;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.price-head {
+  width: 100%;
+  border-bottom: 1px solid #e3e3e3;
+  padding: 15px 0;
+}
+
+.price-head h4 {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 00;
+  text-transform: uppercase;
+  margin: 0px;
+  transition: 1s;
+}
+
+.price-inner {
+  padding: 5px 0;
+  border-bottom: 1px solid #e3e3e3;
+  transition: 1s;
+}
+
+.price-inner h3 {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 600;
+  transition: 1s;
+}
+
+.price-inner h3 sup {
+  font-size: 22px;
+  font-weight: 500;
+  top: -0.5em;
+}
+
+.price-inner P {
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0;
+  color: #9c9c9c;
+}
+
+.price-content {
+  width: 100%;
+  margin: 15px 0;
+}
+
+.price-content p {
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #9c9c9c;
+}
+
+.price-content p span {
+  color: #008ed6;
+}
+
+.price-content button {
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  background: transparent;
+  color: #008ed6;
+  border: 1px solid #e3e3e3;
+  padding: 5px 15px;
+  transition: 1s;
+}
+
+.price-box:hover .price-head h4 {
+  color: #008ed6;
+}
+
+.price-box:hover .price-inner {
+  background: #008ed6;
+}
+
+.price-box:hover .price-inner h3,
+.price-box:hover .price-inner p {
+  color: #fff;
+}
+
+.price-box:hover .price-content button {
+  background-color: #008ed6;
+  color: #f2f2f2;
+}
+
+/* Price And Table Section:- End */
+
+/* Contact Section:- Start */
+.contact {
+  width: 100%;
+  padding: 80px 0 40px 0;
+  background: #ededed;
+}
+
+.contact h5 {
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #008ed6;
+  text-align: center;
+}
+
+.contact h3 {
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 600;
+  color: #000;
+  text-align: center;
+}
+
+.contact .img {
+  text-align: center;
+}
+
+.con-info {
+  padding-top: 40px;
+  text-align: center;
+}
+
+.con-info i {
+  font-size: 45px;
+  line-height: 55px;
+  color: #008ed6;
+  padding-bottom: 20px;
+}
+
+.con-info p {
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: capitalize;
+  font-weight: 400;
+  color: #9f9f9f;
+}
+
+.main-form {
+  width: 100%;
+  background: #15141a;
+  padding: 40px 60px;
+  margin-top: 25px;
+  position: relative;
+  margin-bottom: -80px;
+  z-index: 1;
+}
+.main-form .form-control {
+  text-transform: capitalize;
+  background: transparent;
+  color: #444348;
+  border: 1px solid #444348;
+  outline: none;
+  border-radius: 5px;
+  padding: 9px;
+}
+
+.main-form .btn {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #fff;
+  background: #008ed6;
+  float: right;
+  padding: 10px 15px;
+  transition: 1s;
+}
+
+.main-form .btn:hover,
+.main-form .btn:focus {
+  border: 1px solid #444348;
+  color: #9f9f9f;
+  background: transparent;
+}
+/* Contact Section:- End */
+
+/* Footer Section:- Start */
+.footer {
+  width: 100%;
+  background-color: #000;
+  padding: 40px 0;
+  text-align: center;
+  margin: 0px;
+}
+
+.footer a i {
+  font-size: 25px;
+  line-height: 35px;
+  font-weight: 600;
+  margin: 0 10px;
+  color: #867fa1;
+  transition: 0.8s;
+}
+
+.footer a i:hover {
+  color: #008ed6;
+}
+
+.footer a .fa-twitter {
+  color: #008ed6;
+}
+
+.footer a .fa-twitter:hover {
+  color: #867fa1;
+}
+
+.footer p {
+  font-style: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  padding-top: 10px;
+  margin: 0;
+  color: #444348;
+}
+/* Footer Section:- End */

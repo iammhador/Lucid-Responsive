@@ -1,0 +1,696 @@
+/* For Mobile Phone */
+@media (min-width: 320px) and (max-width: 480px) {
+  .menu {
+    width: 100%;
+  }
+  .menu .navbar-light .navbar-nav .nav-link.active {
+    color: #008ed6;
+    background: url(../images/Prostokąt\ 2.png) left bottom no-repeat;
+  }
+
+  .menu .navbar-light .navbar-nav .nav-link:hover {
+    background: url(../images/Prostokąt\ 2.png) left bottom no-repeat;
+  }
+
+  .banner {
+    padding: 80px 0 0;
+  }
+
+  .banner h4 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .banner h1 {
+    font-size: 24px;
+    line-height: 34px;
+    margin-right: 80px;
+  }
+
+  .banner p {
+    font-size: 10px;
+    line-height: 20px;
+    padding: 0;
+  }
+
+  .banner .btn1,
+  .banner .btn2 {
+    font-size: 12px;
+    line-height: 22px;
+    padding: 10px 15px;
+  }
+
+  .features-section h2 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+
+  .inner-features {
+    padding-top: 50px;
+  }
+
+  .inner-features p {
+    padding-bottom: 0px;
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: 0rem;
+  }
+
+  .about-long {
+    padding: 40px 0px;
+  }
+
+  .about-long .long-img {
+    height: 350px;
+    object-fit: contain;
+  }
+
+  .about-long h5 {
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 30px;
+    text-align: center;
+  }
+
+  .about-long h3 {
+    font-size: 25px;
+    line-height: 35px;
+    color: #000;
+    text-align: center;
+    text-transform: capitalize;
+    text-align: center;
+  }
+
+  .about-long .img {
+    text-align: center;
+  }
+
+  .about-long p {
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .icon-list li {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 5px;
+  }
+
+  .about-short {
+    padding: 40px 0px;
+  }
+
+  .about-short .i5 img {
+    width: 100%;
+    vertical-align: middle;
+    object-fit: contain;
+  }
+
+  .about-short h5 {
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 0px;
+    text-align: center;
+  }
+
+  .about-short h3 {
+    font-size: 28px;
+    line-height: 38px;
+    padding: 5px 0;
+    text-align: center;
+  }
+  .about-short .pros2 {
+    text-align: center;
+  }
+  .about-short p {
+    font-size: 12px;
+    line-height: 22px;
+    color: #7f7f7f;
+    padding: 0px;
+    margin: 25px 0px;
+  }
+  .testimonials h5 {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .testimonials h3 {
+    font-size: 34px;
+    line-height: 42px;
+  }
+  .testimonials .img {
+    padding-bottom: 40px;
+  }
+
+  .testimonials .owl-theme .item h4 {
+    font-size: 12px;
+    line-height: 22px;
+    margin: 80px 0 20px 20px;
+  }
+  .testimonials .owl-theme .item .round {
+    width: 70px;
+    height: 70px;
+  }
+  .testimonials .owl-theme .item h5 {
+    font-size: 14px;
+    line-height: 24px;
+    padding: 0;
+  }
+  .testimonials .owl-theme .item p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 50px;
+  }
+
+  .download h3 {
+    font-size: 27px;
+    line-height: 37px;
+  }
+  .download .btn1,
+  .download .btn2 {
+    font-size: 13px;
+    line-height: 23px;
+    padding: 6px 18px;
+  }
+  .price .titles h5 {
+    font-size: 13px;
+    line-height: 23px;
+  }
+  .price .titles h3 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .price-box {
+    margin-top: 30px;
+  }
+  .price-head h4 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .price-inner h3 {
+    font-size: 44px;
+    line-height: 54px;
+  }
+  .price-inner h3 sup {
+    font-size: 20px;
+    font-weight: 500;
+    top: -0.9rem;
+  }
+  .price-content p {
+    padding-bottom: 10px;
+  }
+  .contact {
+    padding: 50px 0 50px 0;
+  }
+  .contact h5 {
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 10px;
+  }
+  .contact h3 {
+    font-size: 34px;
+    line-height: 44px;
+  }
+  .con-info {
+    padding-top: 30px;
+  }
+  .con-info i {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .con-info p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 50px;
+  }
+  .footer a i {
+    font-size: 22px;
+    line-height: 32px;
+    margin: 0 5px;
+  }
+  .footer p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
+/* For Mobile Phone & low Resulation Tablet */
+@media (min-width: 481px) and (max-width: 767px) {
+  .menu .navbar-light .navbar-nav .nav-link.active {
+    color: #008ed6;
+    background: url(../images/Prostokąt\ 2.png) left bottom no-repeat;
+  }
+  .menu .navbar-light .navbar-nav .nav-link:hover,
+  .menu .navbar-light .navbar-nav .nav-link:focus {
+    background: url(../images/Prostokąt\ 2.png) left bottom no-repeat;
+  }
+  .banner h1 {
+    font-size: 19px;
+    line-height: 30px;
+  }
+  .banner h4 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .banner p {
+    font-size: 13px;
+    line-height: 23px;
+  }
+  .banner .btn1 {
+    font-size: 13px;
+    line-height: 23px;
+    padding: 10px 18px;
+  }
+  .banner .btn2 {
+    font-size: 13px;
+    line-height: 23px;
+    padding: 10px 18px;
+  }
+  .inner-features {
+    padding-top: 50px;
+  }
+
+  .features-section h5 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .features-section h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .inner-features h5 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .inner-features p {
+    font-size: 12px;
+    line-height: 22px;
+    padding-bottom: 0px;
+  }
+  .inner-features .icons {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 0rem;
+  }
+  .about-long {
+    padding: 40px 0;
+  }
+  .about-long .long-img {
+    height: 250px;
+    object-fit: contain;
+  }
+  .about-long h5 {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+  }
+  .about-long h3 {
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+  }
+
+  .about-long .img {
+    text-align: center;
+  }
+  .about-long p {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    padding-top: 25px;
+  }
+  .icon-list li {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  .about-short {
+    width: 100%;
+    padding: 10px 0 20px 0;
+  }
+  .about-short h5 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .about-short h3 {
+    font-size: 30px;
+    line-height: 40px;
+    padding: 0px;
+  }
+  .about-short p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .about-short .i5 img {
+    height: 300px;
+    object-fit: cover;
+  }
+  .testimonials h5 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .testimonials h3 {
+    font-size: 38px;
+    line-height: 48px;
+  }
+  .testimonials .img {
+    width: 100%;
+    padding-bottom: 10px;
+  }
+
+  .testimonials .owl-theme .item h4 {
+    font-size: 16px;
+    line-height: 26px;
+    margin: 50px 15px 20px 0;
+  }
+  .testimonials .owl-theme .item .round {
+    width: 80px;
+    height: 80px;
+    margin: 0px;
+  }
+  .testimonials .owl-theme .item h5 {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 5px 0 0;
+  }
+  .testimonials .owl-theme .item p {
+    font-size: 10px;
+    line-height: 22px;
+    margin: 0 20px 20px 0px;
+  }
+  .download h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .download .btn1,
+  .download .btn2 {
+    font-size: 16px;
+    line-height: 26px;
+    padding: 8px 20px;
+  }
+  .price .titles h5 {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .price .titles h3 {
+    font-size: 34px;
+    line-height: 44px;
+  }
+  .price-box {
+    margin-top: 30px;
+  }
+  .price-head h4 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .price-inner h3 {
+    font-size: 44px;
+    line-height: 54px;
+  }
+  .price-content p {
+    padding-bottom: 10px;
+  }
+  .contact {
+    padding: 60px 0 40px 0;
+  }
+  .contact h5 {
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 5px;
+  }
+  .contact h3 {
+    font-size: 38px;
+    line-height: 48px;
+  }
+
+  .con-info {
+    padding-top: 30px;
+  }
+  .con-info i {
+    font-size: 50px;
+    line-height: 60px;
+    margin-top: 40px;
+  }
+  .con-info p {
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 10px;
+  }
+  .footer a i {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0 6px;
+  }
+  .footer p {
+    font-style: 12px;
+    line-height: 22px;
+  }
+}
+/* For Tablet & Laptop */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .menu .navbar-light .navbar-nav .nav-link.active {
+    color: #008ed6;
+    background: url(../images/Prostokąt\ 2.png) left bottom no-repeat;
+  }
+  .menu .navbar-light .navbar-nav .nav-link:hover,
+  .menu .navbar-light .navbar-nav .nav-link:focus {
+    background: url(../images/Prostokąt\ 2.png) left bottom no-repeat;
+  }
+
+  .banner h4 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .banner h1 {
+    font-size: 23px;
+    line-height: 33px;
+  }
+  .banner .btn1,
+  .banner .btn2 {
+    font-size: 14px;
+    line-height: 26px;
+    padding: 12px 20px;
+  }
+  .about-long h5 {
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 30px;
+    text-align: center;
+  }
+
+  .about-long h3 {
+    font-size: 30px;
+    line-height: 40px;
+    color: #000;
+    text-align: center;
+    text-transform: capitalize;
+    text-align: center;
+  }
+  .inner-features .icons {
+    width: 90px;
+    height: 90px;
+    line-height: 80px;
+    font-size: 8px;
+  }
+  .inner-features h5 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .inner-features p {
+    font-size: 11px;
+    line-height: 22px;
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 0rem;
+  }
+
+  .about-long {
+    padding: 40px 0px;
+  }
+
+  .about-long .long-img {
+    height: 350px;
+    object-fit: contain;
+  }
+
+  .about-long h5 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .about-long h3 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .about-long .img {
+    text-align: center;
+  }
+
+  .about-long p {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    padding-top: 15px;
+  }
+
+  .icon-list li {
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 5px;
+  }
+
+  .about-short {
+    padding: 40px 0px;
+  }
+
+  .about-short .i5 img {
+    width: 100%;
+    vertical-align: middle;
+    object-fit: contain;
+  }
+
+  .about-short h5 {
+    font-size: 18px;
+    line-height: 28px;
+    padding-top: 0px;
+    margin: 0px;
+  }
+
+  .about-short h3 {
+    font-size: 28px;
+    line-height: 38px;
+    padding: 0;
+    margin: 0px;
+  }
+
+  .about-short p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #7f7f7f;
+    padding: 0px;
+    margin: 25px 0px;
+  }
+
+  .testimonials h5 {
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0px;
+  }
+  .testimonials h3 {
+    font-size: 45px;
+    line-height: 55px;
+    margin: 0px;
+    padding-top: 0px;
+  }
+
+  .testimonials .img {
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  .testimonials .owl-theme .item h4 {
+    font-size: 13px;
+    line-height: 23px;
+    margin: 70px 15px 25px 0;
+  }
+  .testimonials .owl-theme .item .round {
+    width: 90px;
+    height: 90px;
+    margin: 0px;
+  }
+  .testimonials .owl-theme .item h5 {
+    font-size: 16px;
+    line-height: 26px;
+    padding: 15px 0 0;
+  }
+  .testimonials .owl-theme .item p {
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0 20px 40px 0px;
+  }
+  .download {
+    overflow: hidden;
+  }
+  .download h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .offset-md-1 {
+    margin-left: 0;
+  }
+  .download .btn1,
+  .download .btn2 {
+    font-size: 16px;
+    line-height: 26px;
+    padding: 10px 22px;
+    text-align: center;
+  }
+  .price .titles h5 {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .price .titles h3 {
+    font-size: 36px;
+    line-height: 46px;
+  }
+  .price-box {
+    margin-top: 30px;
+  }
+  .price-head h4 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .price-inner h3 {
+    font-size: 44px;
+    line-height: 54px;
+  }
+  .price-content p {
+    padding-bottom: 10px;
+  }
+  .contact {
+    padding: 60px 0 40px 0;
+  }
+  .contact h5 {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .contact h3 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .con-info {
+    padding-top: 30px;
+  }
+  .con-info i {
+    font-size: 60px;
+    line-height: 70px;
+  }
+  .con-info p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 65px;
+  }
+  .footer a i {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0 6px;
+  }
+  .footer a i {
+    font-size: 22px;
+    line-height: 32px;
+    margin: 0 8px;
+  }
+  .footer p {
+    font-style: 14px;
+    line-height: 24px;
+  }
+}
